@@ -33,6 +33,5 @@ int main() {
             lastFinish = a[i].finish;
         }
     }
-
     return 0;
 }
