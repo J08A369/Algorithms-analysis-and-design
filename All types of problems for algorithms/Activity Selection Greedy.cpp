@@ -12,6 +12,7 @@ bool compare(Activity a, Activity b) {
 
 int main() {
     Activity a[] = {
+    
         {1, 2}, {3, 4}, {0, 6},
         {5, 7}, {8, 9}, {5, 9}
     };
@@ -27,6 +28,7 @@ int main() {
 
     for (int i = 1; i < n; i++) {
         if (a[i].start >= lastFinish) {
+            
             cout << "(" << a[i].start << ", "
                  << a[i].finish << ")\n";
 
